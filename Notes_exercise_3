@@ -1,0 +1,17 @@
+Notes for Exercise 3: Using Pip to Install Dependencies
+
+-- When python runme.py is ran inside the project_c. It gave an error saying
+   import numpsy as np where no module name 'numpy'. After installing numpy 
+   package, I reran the command python runme.py and it showed a two dimentional
+   array with 3 rows and 5 coloums.
+
+-- While running the same file runme.py inside the project_d it showed the same 
+   error saying import numpy as np since the numpy package is missing. I went ahead
+   and installed the numpy package using the command pip install numpy. This 
+   runme.py also showed the same input of two dimentional array with 3 rows 
+   and 5 coloums.
+
+-- Inside the requirenment.txt file there was only one line that stated the 
+   version of numpy package which was 1.24.3. I was able to copy the requirenment.
+   txt file to the project_d directory and reran the runme.py and it showed the same
+   results as expected.

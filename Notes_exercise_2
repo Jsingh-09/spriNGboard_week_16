@@ -1,0 +1,18 @@
+Notes for Exercise 2: Python Environment
+
+-- When the command python --version is ran it input "python" command not found.
+   The container shows the ouput based on what is installed on that specific 
+   containter. The python version listed were python 3.6.15 and python 3.10.9 .
+   Those results were expected since those version were installed in the previous
+   exercise.
+
+-- Setting the environment for Project A was based on first creating a virtual 
+   environment for project A and then setting the environment using the command
+   pyenv local project_a_env. When the command python --version is ran inside 
+   project_a it inputs "Python 3.10.9"
+
+-- Moving back a directory shows the same input, where it shows the list of the 
+   versions where the python command exitsts rather than shows the exact version
+   like the previous directory inside project_a.
+
+
