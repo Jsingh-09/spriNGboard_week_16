@@ -1,0 +1,12 @@
+Notes for Exercise 5: Thread and Process and Pools in Python
+
+-- While watching the video and testing the code on my end I was running into the 
+   error mentioned in the instruction where it was complaining about Attribute error
+   about threading. The reason for the error is because the python file is named as 
+   threading where threading is one of the library within python. Renaming the file 
+   would resolve the issue.
+
+-- The reason the code might run slower on my end compare to the one in the video
+   is because of the available cores difference between the two different machines.
+   More available cores can lead to faster execution compare to being slower when
+   cores are taken. 
