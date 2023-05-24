@@ -1,0 +1,17 @@
+Notes for Exercise 6
+
+-- By uncommenting line A it took around 1.01 seconds. The do_something function
+   has a sleep duration of one second and it does not have any complex tasks within
+   the function and it takes 1 second to run concurrently and prints the output.
+ 
+-- While uncommenting line B it took around 9.56 seconds. The do_something_hard 
+   function does involve more complex code compare to do_something. Do_something_hard
+   function does have two nexted for loops and does have complex task to perform 
+   and which results the function to take around 9ish seconds to output.
+
+-- Changing from ThreadPoolExecutor to ProcessPoolExecutor the only difference was
+   seen in the do_something_hard function where it took around 4.01 seconds compare
+   to 9.56 seconds when using threadPoolExecutor. ProcessPoolExecutor seem to be 
+   faster running complex task compare to threadpoolExecutor. Process can execute 
+   parallel which can save time and cores at the same part which thread are ran 
+   concurrently using more cores and time.
